@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&family=Rubik:wght@400;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+nav {
+  background-color: transparent;
+  margin-top: 30px;
+}
+
+nav .collapse ul li {
+  margin-right: 30px;
+}
+
+nav .collapse ul li a {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+nav form button {
+  width: 144px;
+  height: 40px;
+  font-size: 10px !important;
+  background-color: #4285F4 !important;
+}
+
+section .container {
+  margin-top: 100px;
+}
+
+section .container .row .take {
+  margin-top: 70px;
+}
+
+section .container .row .take h1 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 126%;
+  /* or 55px */
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
+          font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+
+section .container .row .take h1 span {
+  color: #4285F4;
+}
+
+section .container .row .take p {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 138.5%;
+  /* or 17px */
+  letter-spacing: 0.08em;
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
+          font-feature-settings: "pnum" on, "lnum" on;
+  color: #616161;
+}
+
+section .container .row .take button {
+  font-size: 10px;
+  width: 144px;
+  height: 40px;
+}
+
+.rectangle {
+  position: relative;
+  z-index: -99;
+  float: right;
+  bottom: 593px;
+  right: 0px;
+}
+
+.container .row .hp {
+  margin-left: 100px;
+}
+
+.container .row .stay {
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.container .row .stay h1 {
+  font-weight: 900;
+}
+
+.container .row .stay h1 span {
+  color: #EC5863;
+}
+
+.container .row .stay p {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 138.5%;
+  /* or 17px */
+  letter-spacing: 0.08em;
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
+          font-feature-settings: "pnum" on, "lnum" on;
+  color: #616161;
+}
+
+.container .row .stay button {
+  font-size: 10px;
+  width: 144px;
+  height: 40px;
+}
+
+.bawah {
+  background: #FAFBFD;
+}
+
+.bawah .container .rowone {
+  margin-bottom: 50px;
+}
+
+.bawah .container .rowone .card {
+  z-index: 2;
+  margin-top: 100px !important;
+  padding: 20px;
+  margin: 0 auto;
+  width: 654px;
+  height: 117px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+          box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+  border-radius: 16px;
+}
+
+.bawah .container .rowone .card .grid .col {
+  display: inline-block;
+}
+
+.bawah .container .rowone .card .grid .col h3 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.14em;
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
+          font-feature-settings: "pnum" on, "lnum" on;
+  color: #EC5863;
+}
+
+.bawah .container .rowone .card .grid .col p {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  /* identical to box height */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.37em;
+  text-transform: uppercase;
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
+          font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+
+.bawah .container .rowone .rec1 {
+  position: relative;
+  z-index: 0;
+  width: 127px;
+  height: 127px;
+  bottom: 120px;
+  left: 830px;
+}
+
+.bawah .container .rowone .rec2 {
+  position: relative;
+  z-index: 0;
+  width: 96.96px;
+  height: 96.96px;
+  bottom: 200px;
+  left: 300px;
+  -webkit-transform: rotate(105deg);
+          transform: rotate(105deg);
+}
+
+.bawah .container .rowone .rec3 {
+  position: relative;
+  z-index: 0;
+  width: 65.75px;
+  height: 65.75px;
+  bottom: 70px;
+  left: -40px;
+}
+
+.bawah .container .rowtwo .talk {
+  margin-top: 80px;
+}
+
+.bawah .container .rowtwo .talk h1 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 126%;
+  /* or 55px */
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
+          font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+
+.bawah .container .rowtwo .talk h1 span {
+  color: #4285F4;
+}
+
+.bawah .container .rowtwo .talk p {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 138.5%;
+  /* or 17px */
+  letter-spacing: 0.08em;
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
+          font-feature-settings: "pnum" on, "lnum" on;
+  color: #616161;
+}
+
+.bawah .container .rowtwo .talk button {
+  font-size: 10px;
+  width: 144px;
+  height: 40px;
+}
+
+section .healt h1 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 126%;
+  /* or 55px */
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
+          font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+
+section .healt h1 span {
+  color: #EC5863;
+}
+
+section .healt p {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 138.5%;
+  /* or 17px */
+  letter-spacing: 0.08em;
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
+          font-feature-settings: "pnum" on, "lnum" on;
+  color: #616161;
+}
+
+section .kotak .col {
+  z-index: 4;
+}
+
+section .kotak .col .card {
+  margin: 0 auto;
+  width: 278.17px;
+  height: 276.52px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+          box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+  border-radius: 8px;
+}
+
+section .kotak .col .card img {
+  margin-top: 40px;
+}
+
+section .kotak .col .card .card-body {
+  margin-top: 30px;
+}
+
+section .kotak .col .card h4 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 138.5%;
+  /* or 22px */
+  text-align: center;
+  letter-spacing: 0.08em;
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
+          font-feature-settings: "pnum" on, "lnum" on;
+}
+
+section .kotak .col .card p {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 138.5%;
+  /* or 17px */
+  text-align: center;
+  letter-spacing: 0.08em;
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
+          font-feature-settings: "pnum" on, "lnum" on;
+  color: #616161;
+}
+
+section .kotak .img {
+  width: 100%;
+  height: 100%;
+}
+
+section .kotak .img .rec1 {
+  position: relative;
+  z-index: 0;
+  width: 20%;
+  height: 20%;
+  bottom: 200px;
+  left: -50px;
+}
+
+section .kotak .img .rec2 {
+  position: relative;
+  z-index: 0;
+  width: 10%;
+  height: 10%;
+  bottom: 200px;
+  left: 450px;
+  -webkit-transform: rotate(100deg);
+          transform: rotate(100deg);
+}
+
+section .kotak .img .rec3 {
+  position: relative;
+  z-index: 0;
+  width: 15%;
+  height: 15%;
+  bottom: 200px;
+  left: -40px;
+  -webkit-transform: rotate(80deg);
+          transform: rotate(80deg);
+}
+
+section .kotak .img .rec4 {
+  position: relative;
+  z-index: 0;
+  width: 10%;
+  height: 10%;
+  bottom: 400px;
+  left: 500px;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+}
+
+footer a {
+  margin: 20px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */

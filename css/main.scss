@@ -1,0 +1,414 @@
+// @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&family=Rubik:wght@400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    background-color: transparent;
+    margin-top: 30px;
+
+    .collapse {
+        ul {
+            li {
+                margin-right: 30px;
+
+                a {
+                    font-weight: bold;
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+
+    form {
+        button {
+            width: 144px;
+            height: 40px;
+            font-size: 10px !important;
+            background-color: #4285F4 !important;
+        }
+    }
+}
+
+section {
+    .container {
+        margin-top: 100px;
+
+        .row {
+            .take {
+                margin-top: 70px;
+
+                h1 {
+                    font-family: Rubik;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 44px;
+                    line-height: 126%;
+                    /* or 55px */
+
+                    font-feature-settings: 'pnum'on, 'lnum'on;
+
+                    color: #000000;
+
+                    span {
+                        color: #4285F4;
+                    }
+                }
+
+                p {
+                    font-family: Rubik;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 138.5%;
+                    /* or 17px */
+
+                    letter-spacing: 0.08em;
+                    font-feature-settings: 'pnum'on, 'lnum'on;
+
+                    color: #616161;
+                }
+
+                button {
+                    font-size: 10px;
+                    width: 144px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+}
+
+.rectangle {
+    position: relative;
+    z-index: -99;
+    float: right;
+    bottom: 593px;
+    right: 0px;
+
+
+}
+
+.container {
+    .row {
+        .hp {
+            margin-left: 100px;
+        }
+
+        .stay {
+            margin-top: 150px;
+            margin-left: 100px;
+
+            h1 {
+                font-weight: 900;
+
+                span {
+                    color: #EC5863;
+                }
+            }
+
+            p {
+                font-family: Rubik;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 138.5%;
+                /* or 17px */
+
+                letter-spacing: 0.08em;
+                font-feature-settings: 'pnum'on, 'lnum'on;
+
+                color: #616161;
+            }
+
+            button {
+                font-size: 10px;
+                width: 144px;
+                height: 40px;
+            }
+        }
+    }
+}
+
+.bawah {
+    background: #FAFBFD;
+
+    .container {
+        .rowone {
+            margin-bottom: 50px;
+
+            .card {
+                z-index: 2;
+                margin-top: 100px !important;
+                padding: 20px;
+                margin: 0 auto;
+                width: 654px;
+                height: 117px;
+                background: #FFFFFF;
+                box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+                border-radius: 16px;
+
+                .grid {
+                    .col {
+                        display: inline-block;
+
+                        h3 {
+
+                            font-family: Rubik;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 36px;
+                            line-height: 43px;
+                            /* identical to box height */
+
+                            display: flex;
+                            align-items: center;
+                            text-align: center;
+                            letter-spacing: 0.14em;
+                            font-feature-settings: 'pnum'on, 'lnum'on;
+                            color: #EC5863;
+                        }
+
+                        p {
+                            font-family: Rubik;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 11px;
+                            line-height: 13px;
+                            /* identical to box height */
+
+                            display: flex;
+                            align-items: center;
+                            text-align: center;
+                            letter-spacing: 0.37em;
+                            text-transform: uppercase;
+                            font-feature-settings: 'pnum'on, 'lnum'on;
+
+                            color: #000000;
+                        }
+
+                    }
+
+
+                }
+            }
+
+            .rec1 {
+                position: relative;
+                z-index: 0;
+                width: 127px;
+                height: 127px;
+                bottom: 120px;
+                left: 830px;
+            }
+
+            .rec2 {
+                position: relative;
+                z-index: 0;
+                width: 96.96px;
+                height: 96.96px;
+                bottom: 200px;
+                left: 300px;
+                transform: rotate(105deg);
+            }
+
+            .rec3 {
+                position: relative;
+                z-index: 0;
+                width: 65.75px;
+                height: 65.75px;
+                bottom: 70px;
+                left: -40px;
+            }
+        }
+
+        .rowtwo {
+            .talk {
+                margin-top: 80px;
+
+                h1 {
+                    font-family: Rubik;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 44px;
+                    line-height: 126%;
+                    /* or 55px */
+
+                    font-feature-settings: 'pnum'on, 'lnum'on;
+
+                    color: #000000;
+
+                    span {
+                        color: #4285F4;
+                    }
+                }
+
+                p {
+                    font-family: Rubik;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 138.5%;
+                    /* or 17px */
+
+                    letter-spacing: 0.08em;
+                    font-feature-settings: 'pnum'on, 'lnum'on;
+
+                    color: #616161;
+                }
+
+                button {
+                    font-size: 10px;
+                    width: 144px;
+                    height: 40px;
+                }
+            }
+           
+        }
+    }
+}
+
+section {
+    .healt {
+        h1 {
+            font-family: Rubik;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 44px;
+            line-height: 126%;
+            /* or 55px */
+
+            font-feature-settings: 'pnum'on, 'lnum'on;
+
+            color: #000000;
+
+            span {
+                color: #EC5863;
+            }
+        }
+
+        p {
+            font-family: Rubik;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 138.5%;
+            /* or 17px */
+
+            letter-spacing: 0.08em;
+            font-feature-settings: 'pnum'on, 'lnum'on;
+
+            color: #616161;
+        }
+    }
+
+    .kotak {
+        // margin: 0 auto;
+        .col{
+            z-index: 4;
+            // margin-left: 30px !important;
+            .card {
+                // justify-content: center;
+                margin: 0 auto;
+                width: 278.17px;
+                height: 276.52px;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+                border-radius: 8px;
+    
+                img {
+                    margin-top: 40px;
+                }
+    
+                .card-body{
+                    margin-top: 30px;
+                }
+    
+                h4 {
+                    font-family: Rubik;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 138.5%;
+                    /* or 22px */
+    
+                    text-align: center;
+                    letter-spacing: 0.08em;
+                    font-feature-settings: 'pnum'on, 'lnum'on;
+                }
+    
+                p {
+                    font-family: Rubik;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 138.5%;
+                    /* or 17px */
+    
+                    text-align: center;
+                    letter-spacing: 0.08em;
+                    font-feature-settings: 'pnum'on, 'lnum'on;
+    
+                    color: #616161;
+                }
+            }
+        }
+       .img{
+           width: 100%;
+           height: 100%;
+
+           .rec1 {
+            position: relative;
+            z-index: 0;
+            width: 20%;
+            height: 20%;
+            bottom: 200px;
+            left: -50px;
+        }
+
+        .rec2 {
+            position: relative;
+            z-index: 0;
+            width: 10%;
+            height: 10%;
+            bottom: 200px;
+            left: 450px;
+            transform: rotate(100deg);
+        }
+
+        .rec3 {
+            position: relative;
+            z-index: 0;
+            width: 15%;
+            height: 15%;
+            bottom: 200px;
+            left: -40px;
+            transform: rotate(80deg);
+        }
+        .rec4 {
+            position: relative;
+            z-index: 0;
+            width: 10%;
+            height: 10%;
+            bottom: 400px;
+            left: 500px;
+        }
+       }
+    }
+}
+footer{
+    height: 100px;
+    width: 100%;
+    a{
+        margin:20px;
+        text-decoration: none;
+    }
+}
