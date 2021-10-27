@@ -3,7 +3,230 @@
     margin-top: 0;
   }
   section .container .row .take {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  section .container .row .page {
+    text-align: center;
+  }
+  section .container .row .page img {
+    width: 400px;
+  }
+  .rectangle {
+    display: none;
+  }
+  .play {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  section .container .stay {
+    text-align: center;
+    margin-left: 0px !important;
+  }
+  .bawah .rowone {
+    margin-bottom: 0px;
+  }
+  .bawah .rowone .card {
+    z-index: 2;
+    margin-top: 100px !important;
+    margin: 0 auto;
+    width: 100% !important;
+    height: 117px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+            box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+    border-radius: 16px;
+  }
+  .bawah .rowone .card .grid .col {
+    display: inline-block;
+  }
+  .bawah .rowone .card .grid .col h3 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    /* identical to box height */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    letter-spacing: 0.14em;
+    -webkit-font-feature-settings: "pnum" on, "lnum" on;
+            font-feature-settings: "pnum" on, "lnum" on;
+    color: #EC5863;
+  }
+  .bawah .rowone .card .grid .col p {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    /* identical to box height */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    letter-spacing: 0.37em;
+    text-transform: uppercase;
+    -webkit-font-feature-settings: "pnum" on, "lnum" on;
+            font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .bawah .rowone .rec1 {
+    display: none;
+    position: relative;
+    z-index: 0;
+    width: 127px;
+    height: 127px;
+    bottom: 120px;
+    left: 830px;
+  }
+  .bawah .rowone .rec2 {
+    position: relative;
+    z-index: 0;
+    width: 96.96px;
+    height: 96.96px;
+    bottom: 200px;
+    left: 300px;
+    -webkit-transform: rotate(105deg);
+            transform: rotate(105deg);
+  }
+  .bawah .rowone .rec3 {
+    position: relative;
+    z-index: 0;
+    width: 65.75px;
+    height: 65.75px;
+    bottom: 70px;
+    left: -40px;
+  }
+  .rowtwo {
+    margin-top: -80px;
+  }
+  .rowtwo .talk {
     margin-top: 0px;
+  }
+  .rowtwo .talk h1 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 126%;
+    /* or 55px */
+    -webkit-font-feature-settings: "pnum" on, "lnum" on;
+            font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .rowtwo .talk h1 span {
+    color: #4285F4;
+  }
+  .rowtwo .talk p {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 138.5%;
+    /* or 17px */
+    letter-spacing: 0.08em;
+    -webkit-font-feature-settings: "pnum" on, "lnum" on;
+            font-feature-settings: "pnum" on, "lnum" on;
+    color: #616161;
+  }
+  .rowtwo .talk button {
+    font-size: 10px;
+    width: 144px;
+    height: 40px;
+  }
+  .talk {
+    text-align: center;
+  }
+  .vid {
+    text-align: center;
+  }
+  .vid img {
+    width: 430px;
+    height: 250px;
+  }
+  .healt {
+    margin-top: 100px;
+  }
+  .healt h1 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 126%;
+    /* or 55px */
+    -webkit-font-feature-settings: "pnum" on, "lnum" on;
+            font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .healt h1 span {
+    color: #EC5863;
+  }
+  .healt p {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 138.5%;
+    /* or 17px */
+    letter-spacing: 0.08em;
+    -webkit-font-feature-settings: "pnum" on, "lnum" on;
+            font-feature-settings: "pnum" on, "lnum" on;
+    color: #616161;
+  }
+  .kotak .rec1 {
+    position: relative;
+    z-index: 0;
+    width: 20%;
+    height: 20%;
+    bottom: 200px;
+    left: -50px;
+  }
+  .kotak .rec2 {
+    display: none;
+    position: relative;
+    z-index: 0;
+    width: 10%;
+    height: 10%;
+    bottom: 200px;
+    left: 450px;
+    -webkit-transform: rotate(100deg);
+            transform: rotate(100deg);
+  }
+  .kotak .rec3 {
+    position: relative;
+    z-index: 0;
+    width: 15%;
+    height: 15%;
+    bottom: 200px;
+    left: -40px;
+    -webkit-transform: rotate(80deg);
+            transform: rotate(80deg);
+  }
+  .kotak .rec4 {
+    display: none;
+    position: relative;
+    z-index: 0;
+    width: 10%;
+    height: 10%;
+    bottom: 400px;
+    right: 500px;
+  }
+  .bawah {
+    margin-bottom: -0px;
+  }
+  footer {
+    margin-top: -50px !important;
+    margin-bottom: 20px;
   }
 }
 /*# sourceMappingURL=mobile.css.map */
